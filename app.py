@@ -17,7 +17,7 @@ def try_it():
     print('API requested for :: ' + api_id)
     print('Input Set is :: ', param1, param2, param3)
     
-    cmd = 'python3 /Users/atiagarw/tli/py_scripts/linear_regression.py ' + param1 + ' ' + param2 + ' ' + param3
+    cmd = 'python3 <PATH_TO_PY_MODEL_SCRIPT> ' + param1 + ' ' + param2 + ' ' + param3
     print('Model running :: ', cmd)
     os.system(cmd)
     return ("Done...Please check console for output...")
